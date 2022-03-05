@@ -28,4 +28,4 @@ GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
 
 Expect Cold starts while Cen is growing, 200+ ms responses 
 
-For those in *Australasia* expect higher response times, Netlify AWS Lambda is located in Sans Francisco
+Expect higher response times outside San Francisco (Netlify AWS lambda functions)
