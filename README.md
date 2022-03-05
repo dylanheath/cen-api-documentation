@@ -14,7 +14,6 @@ Transactions
 GET mainnet.cen.network/.netlify/functions/api/transactions/getall
 GET mainnet.cen.network/.netlify/functions/api/transactions/getsent{address, name, email or phone number}
 GET mainnet.cen.network/.netlify/functions/api/transactions/getreceived{address, name, email or phone number}
-GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
 ```
 Users
 ```
