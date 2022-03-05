@@ -5,6 +5,7 @@ Development Repo https://github.com/dylanheath/cen-server
 
 ### General Usage
 
+
 All usage must be server side, abiding by the CORS policy.
 
 ### EndPoints
