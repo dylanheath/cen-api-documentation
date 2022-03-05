@@ -27,6 +27,6 @@ GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
 ```
 #### Response Times & Timeouts
 
-Responses may be slow because the functions will cold start leading to 150+ ms, only caused by minimal connections.
+Expect Cold starts while Cen is growing, 200+ ms responses 
 
 For those in *Australasia* expect higher response times, Netlify AWS Lambda is located in Sans Francisco
