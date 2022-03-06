@@ -24,6 +24,7 @@ GET mainnet.cen.network/.netlify/functions/api/user/{address, name, email or pho
 Analytics
 ```
 GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
+GET mainnet.cen.network/.netlify/functions/api/transactions/totalamount
 ```
 #### Response Times & Timeouts
 
