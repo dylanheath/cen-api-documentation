@@ -8,24 +8,31 @@ Development Repo https://github.com/dylanheath/cen-server
 
 All usage must be server side, abiding by the CORS policy.
 
-### EndPoints
+#### EndPoints
 
-Transactions
+### Transactions
 ```
 GET mainnet.cen.network/.netlify/functions/api/transactions/getall
 GET mainnet.cen.network/.netlify/functions/api/transactions/getsent{address, name, email or phone number}
 GET mainnet.cen.network/.netlify/functions/api/transactions/getreceived{address, name, email or phone number}
 ```
-Users
+### Users
 ```
 GET mainnet.cen.network/.netlify/functions/api/user/{address, name, email or phone number}
 ```
 
-Analytics
+### Analytics
 ```
 GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
 GET mainnet.cen.network/.netlify/functions/api/transactions/totalamount
 ```
+
+### Status
+
+```
+GET mainnet.cen.network/.netlify/functions/api/status
+```
+
 #### Response Times & Timeouts
 
 Expect Cold starts while Cen is growing, 200+ ms responses 
