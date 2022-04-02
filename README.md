@@ -20,13 +20,15 @@ GET mainnet.cen.network/.netlify/functions/api/transactions/getreceived{address,
 ```
 GET mainnet.cen.network/.netlify/functions/api/user/{address, name, email or phone number}
 ```
-
 ### Analytics
 ```
 GET mainnet.cen.network/.netlify/functions/api/transactions/totaltransactions
 GET mainnet.cen.network/.netlify/functions/api/transactions/totalamount
 ```
-
+### Price
+```
+GET mainnet.cen.network/.netlify/functions/api/price/xtz
+```
 ### Status
 
 ```
